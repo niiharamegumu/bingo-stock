@@ -7,5 +7,7 @@ type Props = {
 
 export const Card: FC<Props> = (props) => {
   const { children } = props
-  return <Center fontSize={{ base: '6xl', md: '9xl' }}>{children}</Center>
+  return (
+    <Center fontSize={{ base: '3vw', sm: '5vw', md: '7vw' }}>{children}</Center>
+  )
 }

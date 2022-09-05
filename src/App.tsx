@@ -59,9 +59,9 @@ function App() {
     <Container maxW="100vw" pt={4}>
       <Grid
         templateColumns={{
-          base: 'repeat(3, 1fr)',
-          md: 'repeat(4, 1fr)',
-          xl: 'repeat(6, 1fr)',
+          base: 'repeat(4, 1fr)',
+          md: 'repeat(6, 1fr)',
+          xl: 'repeat(8, 1fr)',
         }}
         columnGap={8}
         mb={4}
