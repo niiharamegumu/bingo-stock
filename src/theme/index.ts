@@ -30,12 +30,16 @@ const theme = extendTheme(
     semanticTokens: {
       colors: {
         sTMainColor: {
-          _light: '#000000',
-          _dark: '#FFFFFF',
+          _light: 'black',
+          _dark: 'white',
         },
         sTSecondColor: {
           _light: 'gray.200',
           _dark: 'gray.600',
+        },
+        sTNotice: {
+          _light: 'red.500',
+          _dark: 'red.300',
         },
       },
     },
